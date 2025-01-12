@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>张桂涛电商点单小程序</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>张桂涛电商点单小程序</h1>
+        <p>自主研发测试项目 - 开发日期：2025年1月12日</p>
+    </header>
+
+    <main>
+        <section class="products">
+            <div class="product-card">
+                <h2>C语言学习</h2>
+                <p class="price">¥99</p>
+                <button class="add-to-cart">加入购物车</button>
+            </div>
+
+            <div class="product-card">
+                <h2>打羽毛球</h2>
+                <p class="price">¥79</p>
+                <button class="add-to-cart">加入购物车</button>
+            </div>
+
+            <div class="product-card">
+                <h2>高数学习</h2>
+                <p class="price">¥129</p>
+                <button class="add-to-cart">加入购物车</button>
+            </div>
+
+            <div class="product-card">
+                <h2>编程刷题</h2>
+                <p class="price">¥89</p>
+                <button class="add-to-cart">加入购物车</button>
+            </div>
+
+            <div class="product-card">
+                <h2>英语外刊翻译</h2>
+                <p class="price">¥109</p>
+                <button class="add-to-cart">加入购物车</button>
+            </div>
+
+            <div class="product-card">
+                <h2>打游戏放松</h2>
+                <p class="price">¥59</p>
+                <button class="add-to-cart">加入购物车</button>
+            </div>
+        </section>
+
+        <aside class="cart">
+            <h2>购物车</h2>
+            <ul class="cart-items"></ul>
+            <p class="total">总计：¥0</p>
+            <button class="checkout">结算</button>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 张桂涛. 保留所有权利。</p>
+    </footer>
+
+    <!-- Payment Modal -->
+    <div class="payment-modal">
+        <div class="modal-content">
+            <h2>微信支付</h2>
+            <img src="images/wechat-pay.jpg" alt="微信收款码">
+            <p>请使用微信扫描二维码完成支付</p>
+            <button class="close-modal">关闭</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
